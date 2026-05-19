@@ -1,0 +1,37 @@
+# Core LangChain
+langchain
+langchain-core
+langchain-community
+
+# Mistral AI
+mistralai
+langchain-mistralai
+
+# Environment Variables
+python-dotenv
+
+# Data Handling
+pydantic
+pandas
+
+# JSON / Structured Output
+orjson
+
+# API Requests
+requests
+
+# Optional: FastAPI Backend
+fastapi
+uvicorn
+
+# Optional: Streamlit UI
+streamlit
+
+# Optional: Vector Database / Embeddings
+faiss-cpu
+
+# Optional: Token Handling
+tiktoken
+
+# Optional: Logging & Debugging
+rich
