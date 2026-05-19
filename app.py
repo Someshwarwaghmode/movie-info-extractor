@@ -72,11 +72,27 @@ st.markdown(
 )
 
 # Text Area
+# Text Area
 movie_text = st.text_area(
     "Enter Movie Paragraph",
     height=220,
     placeholder="Paste movie paragraph here..."
 )
+
+# Example Data
+st.markdown("### 🎬 Example Movie Paragraph")
+
+example_text = """
+3 Idiots is a 2009 Indian Hindi-language comedy-drama film directed by Rajkumar Hirani.
+It stars Aamir Khan, R. Madhavan, Sharman Joshi, Kareena Kapoor, and Boman Irani.
+
+The story follows three engineering students who navigate friendship, academic pressure, and self-discovery at a prestigious college.
+
+The movie was released on 25 December 2009 and became one of the highest-grossing Indian films.
+It received praise for its humor, emotional depth, and message about creativity and education.
+"""
+
+st.code(example_text, language="text")
 
 # Button
 analyze_btn = st.button("🚀 Analyze Movie")
